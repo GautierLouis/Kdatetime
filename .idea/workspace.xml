@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbaefc2d-17b1-4cd4-bb46-bd6bbbbcf532" name="Changes" comment="Changes" />
+    <list default="true" id="bbaefc2d-17b1-4cd4-bb46-bd6bbbbcf532" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/louis.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/xcuserdata/louis.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/ContentView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Preview Content/Preview Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/iosAppApp.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KotlinMultiplatform" konanHome="$USER_HOME$/.konan/kotlin-native-prebuilt-macos-x86_64-1.6.10">
     <allAvailableExecutables>
@@ -46,18 +59,18 @@
           </variant>
         </variants>
       </executable>
-      <executable target="ios_x64" targetName="ios" execName="test" projectPrefix="Kdatetime:" isTest="true">
+      <executable target="tvos_arm64" targetName="tvosArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestIos" file="build/bin/ios/debugTest/test.kexe">
+          <variant name="Debug" gradleTask=":linkDebugTestTvosArm64" file="build/bin/tvosArm64/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
           </variant>
         </variants>
       </executable>
-      <executable target="tvos_arm64" targetName="tvosArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
+      <executable target="ios_x64" targetName="ios" execName="test" projectPrefix="Kdatetime:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestTvosArm64" file="build/bin/tvosArm64/debugTest/test.kexe">
+          <variant name="Debug" gradleTask=":linkDebugTestIos" file="build/bin/ios/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
