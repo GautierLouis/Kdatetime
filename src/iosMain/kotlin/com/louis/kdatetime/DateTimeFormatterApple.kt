@@ -17,7 +17,7 @@ actual fun format(
 
 actual fun format(
     instant: Instant,
-    formatter: DateFormatter,
+    formatter: KDateTimeFormatter,
     zone: TimeZone,
     localeString: String
 ): String {
@@ -63,7 +63,7 @@ fun format(
 
 fun format(
     date: NSDate,
-    formatter: DateFormatter,
+    formatter: KDateTimeFormatter,
     zone: NSTimeZone,
     locale: NSLocale
 ): String {

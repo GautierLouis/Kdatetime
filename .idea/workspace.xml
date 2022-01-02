@@ -4,26 +4,28 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbaefc2d-17b1-4cd4-bb46-bd6bbbbcf532" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/louis.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/xcuserdata/louis.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Assets.xcassets/AccentColor.colorset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/ContentView.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/Preview Content/Preview Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/iosAppApp.swift" afterDir="false" />
+    <list default="true" id="bbaefc2d-17b1-4cd4-bb46-bd6bbbbcf532" name="Changes" comment="Add ios sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/DateTimeFormatterAndroid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/DateTimeFormatterAndroid.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/ExtentionsAndroid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/ExtentionsAndroid.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/KDateTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/KDateTime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/Models.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/Models.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateKind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateKind.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateLocale.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateLocale.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateStyle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateZone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateZone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iosMain/kotlin/com/louis/kdatetime/DateTimeFormatterApple.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/com/louis/kdatetime/DateTimeFormatterApple.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvmMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nativeMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/louis/.android/avd/Pixel_2_API_28_UiTesting.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/louis/.android/avd/Pixel_4_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -226,6 +228,14 @@
       <option name="presentableId" value="Default" />
       <updated>1641049428663</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add ios sample">
+      <created>1641060548630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641060548634</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,5 +254,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Add ios sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ios sample" />
   </component>
 </project>

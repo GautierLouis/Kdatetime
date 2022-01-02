@@ -7,8 +7,6 @@ import kotlinx.datetime.TimeZone
 import java.lang.Exception
 import java.time.*
 import java.time.LocalDate
-import java.time.LocalDateTime
-import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 import java.time.temporal.*
 import java.util.*
@@ -26,7 +24,7 @@ actual fun format(
 @SuppressLint("NewApi")
 actual fun format(
     instant: Instant,
-    formatter: DateFormatter,
+    formatter: KDateTimeFormatter,
     zone: TimeZone,
     localeString: String
 ): String {

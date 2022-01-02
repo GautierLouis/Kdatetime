@@ -1,6 +1,6 @@
 package com.louis.kdatetime.formating
 
-import com.louis.kdatetime.DateFormatter
+import com.louis.kdatetime.KDateTimeFormatter
 import com.louis.kdatetime.DateTimeStyle
 import com.louis.kdatetime.Format
 import com.louis.kdatetime.format
@@ -17,19 +17,19 @@ class TestDateKind {
 
     @Test
     fun test_format_with_time_kind() {
-        val string = format(fakeInstant, DateFormatter(Format.TIME, DateTimeStyle.SHORT), TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.TIME, DateTimeStyle.SHORT), TimeZone.UTC)
         assertEquals( "3:52 PM", string)
     }
 
     @Test
     fun test_format_with_date_time_kind() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC)
         assertEquals( "12/15/21, 3:52 PM", string)
     }
 
     @Test
     fun test_format_with_date_kind() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE, DateTimeStyle.SHORT), TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE, DateTimeStyle.SHORT), TimeZone.UTC)
         assertEquals( "12/15/21", string)
     }
 }

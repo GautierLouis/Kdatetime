@@ -1,6 +1,6 @@
 package com.louis.kdatetime.formating
 
-import com.louis.kdatetime.DateFormatter
+import com.louis.kdatetime.KDateTimeFormatter
 import com.louis.kdatetime.DateTimeStyle
 import com.louis.kdatetime.Format
 import com.louis.kdatetime.format
@@ -17,13 +17,13 @@ class TestDateZone {
 
     @Test
     fun test_format_in_utc_with_style() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), zone = TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), zone = TimeZone.UTC)
         assertEquals( "12/15/21, 3:52 PM", string)
     }
 
     @Test
     fun test_format_in_paris_with_style() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), zone = TimeZone.of("Europe/Paris"))
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), zone = TimeZone.of("Europe/Paris"))
         assertEquals( "12/15/21, 4:52 PM", string)
     }
 }

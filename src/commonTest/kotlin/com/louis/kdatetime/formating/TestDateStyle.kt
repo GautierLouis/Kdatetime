@@ -1,6 +1,6 @@
 package com.louis.kdatetime.formating
 
-import com.louis.kdatetime.DateFormatter
+import com.louis.kdatetime.KDateTimeFormatter
 import com.louis.kdatetime.DateTimeStyle
 import com.louis.kdatetime.Format
 import com.louis.kdatetime.format
@@ -23,25 +23,25 @@ class TestDateStyle {
 
     @Test
     fun test_format_with_style_short() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC)
         assertEquals( "12/15/21, 3:52 PM", string)
     }
 
     @Test
     fun test_format_with_style_medium() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.MEDIUM), TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.MEDIUM), TimeZone.UTC)
         assertEquals(mediumStyle, string)
     }
 
     @Test
     fun test_format_with_style_long() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.LONG), TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.LONG), TimeZone.UTC)
         assertEquals(longStyle, string)
     }
 
     @Test
     fun test_format_with_style_full() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.FULL), TimeZone.UTC)
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.FULL), TimeZone.UTC)
         assertEquals(fullStyle, string)
     }
 }

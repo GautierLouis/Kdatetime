@@ -22,7 +22,7 @@ actual fun formatISO(
 
 actual fun format(
     instant: Instant,
-    formatter: DateFormatter,
+    formatter: KDateTimeFormatter,
     zone: TimeZone,
     localeString: String
 ): String {

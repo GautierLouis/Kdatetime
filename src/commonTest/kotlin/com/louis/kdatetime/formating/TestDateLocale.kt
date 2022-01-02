@@ -1,6 +1,6 @@
 package com.louis.kdatetime.formating
 
-import com.louis.kdatetime.DateFormatter
+import com.louis.kdatetime.KDateTimeFormatter
 import com.louis.kdatetime.DateTimeStyle
 import com.louis.kdatetime.Format
 import com.louis.kdatetime.format
@@ -29,13 +29,13 @@ class TestDateLocale {
 
     @Test
     fun test_format_in_english_with_style() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC, localeString = "en-US")
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC, localeString = "en-US")
         assertEquals( "12/15/21, 3:52 PM", string)
     }
 
     @Test
     fun test_format_in_french_with_style() {
-        val string = format(fakeInstant, DateFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC, localeString = "fr-FR")
+        val string = format(fakeInstant, KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.SHORT), TimeZone.UTC, localeString = "fr-FR")
         assertEquals( "15/12/2021 15:52", string)
     }
 

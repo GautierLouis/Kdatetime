@@ -118,7 +118,7 @@ class KDateTime (
         return format(instant, pattern, zone, withLocale)
     }
 
-    fun format(formatter: DateFormatter, withLocale: String): String {
+    fun format(formatter: KDateTimeFormatter, withLocale: String): String {
         return format(instant, formatter, zone, withLocale)
     }
 

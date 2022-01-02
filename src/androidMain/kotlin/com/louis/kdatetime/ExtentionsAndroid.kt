@@ -14,7 +14,7 @@ fun DateTimeStyle.toJavaFormatStyle(): FormatStyle = when (this) {
 }
 
 @SuppressLint("NewApi")
-fun DateFormatter.toJavaDateTimeFormatter(): DateTimeFormatter = when (format) {
+fun KDateTimeFormatter.toJavaDateTimeFormatter(): DateTimeFormatter = when (format) {
     Format.DATE -> DateTimeFormatter.ofLocalizedDate(dateStyle.toJavaFormatStyle())
     Format.TIME -> DateTimeFormatter.ofLocalizedTime(timeStyle.toJavaFormatStyle())
     Format.DATE_TIME -> DateTimeFormatter.ofLocalizedDateTime(dateStyle.toJavaFormatStyle(), timeStyle.toJavaFormatStyle())

@@ -13,7 +13,7 @@ expect fun format(
 
 expect fun format(
     instant: Instant,
-    formatter: DateFormatter,
+    formatter: KDateTimeFormatter,
     zone: TimeZone,
     localeString: String = getCurrentLocaleString()
 ): String

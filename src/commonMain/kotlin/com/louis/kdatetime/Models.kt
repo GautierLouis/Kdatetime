@@ -1,6 +1,6 @@
 package com.louis.kdatetime
 
-data class DateFormatter(val format: Format, val style: DateTimeStyle) {
+data class KDateTimeFormatter(val format: Format, val style: DateTimeStyle) {
     //Use this if with different style between date and time
     //Only used when format == DATE_TIME
     var dateStyle = style
