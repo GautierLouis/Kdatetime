@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val dateTime = KDateTime.now(TimeZone.currentSystemDefault())
-        val formatter = DateFormatter(Format.DATE_TIME, DateTimeStyle.MEDIUM)
+        val formatter = KDateTimeFormatter(Format.DATE_TIME, DateTimeStyle.MEDIUM)
         val dateTimeFormatted = dateTime.format(formatter, getCurrentLocaleString())
         findViewById<TextView>(R.id.text_view).text = dateTimeFormatted
     }

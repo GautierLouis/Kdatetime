@@ -1,0 +1,16 @@
+PODS:
+  - Kdatetime (1.0-SNAPSHOT)
+
+DEPENDENCIES:
+  - Kdatetime (from `../../../KDateTime`)
+
+EXTERNAL SOURCES:
+  Kdatetime:
+    :path: "../../../KDateTime"
+
+SPEC CHECKSUMS:
+  Kdatetime: ff77c219f8666869c4f6bec9d00c7bc343266166
+
+PODFILE CHECKSUM: 77c6030f77fe73c564bb0e2071587c86c73c9370
+
+COCOAPODS: 1.11.2

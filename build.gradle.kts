@@ -1,3 +1,4 @@
+import org.jetbrains.kotlin.gradle.plugin.mpp.BitcodeEmbeddingMode.BITCODE
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
@@ -62,12 +63,13 @@ kotlin {
     cocoapods {
         summary = "A DateTimeFormatter written for KMP"
         homepage = "Link to the Shared Module homepage"
-        ios.deploymentTarget = "14.1"
+        ios.deploymentTarget = "15.0"
         watchos.deploymentTarget = "7.2"
         tvos.deploymentTarget = "15.2"
         osx.deploymentTarget = "11.0"
         framework {
             baseName = rootProject.name
+            embedBitcode(BITCODE)
         }
     }
 

@@ -1,0 +1,23 @@
+def shared_pods
+    pod 'Kdatetime', :path => '../../../KDateTime'
+end
+
+#target :'macApp' do
+#    platform :macos, '11.0'
+#    shared_pods
+#end
+
+target :'iosApp' do
+    platform :ios, '14.1'
+    shared_pods
+end
+
+#target :'tvApp' do
+#    platform :tvos, '15.2'
+#    shared_pods
+#end
+
+#target :'watchApp WatchKit Extension' do
+#    platform :watchos, '7.2'
+#    shared_pods
+#end

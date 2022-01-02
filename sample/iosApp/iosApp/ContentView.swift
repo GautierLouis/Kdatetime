@@ -12,8 +12,11 @@ struct ContentView: View {
     func getCurrentDate() -> String {
         let dateTime = KDateTimeBuilderKt.now(zone: NSTimeZone.default)
        
+        let formatter = KDateTimeFormatter(format: Format.dateTime, style: DateTimeStyle.full)
         
-        return DateTimeFormatterAppleKt.format(instant: dateTime.instant, pattern: "EEEE DD MMMM YYY HH:mm:ss", zone: dateTime.zone(), localeString: "fr-FR")
+        
+        return dateTime.format(formatter: formatter, withLocale: NSLocale.current.languageCode!)
+        
     }
     
     var body: some View {

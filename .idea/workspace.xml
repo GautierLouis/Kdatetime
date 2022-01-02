@@ -5,20 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbaefc2d-17b1-4cd4-bb46-bd6bbbbcf532" name="Changes" comment="Add ios sample">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-js-store/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Local Podspecs/Kdatetime.podspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Manifest.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Pods.xcodeproj/xcuserdata/louis.xcuserdatad/xcschemes/Kdatetime.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Pods.xcodeproj/xcuserdata/louis.xcuserdatad/xcschemes/Pods-iosApp.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Pods.xcodeproj/xcuserdata/louis.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Target Support Files/Kdatetime/Kdatetime.debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Target Support Files/Kdatetime/Kdatetime.release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-acknowledgements.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-acknowledgements.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-dummy.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/Pods/Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcworkspace/xcuserdata/louis.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Kdatetime_jslegacy_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Kdatetime_jslegacy_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Kdatetime_jvm_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Kdatetime_jvm_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/DateTimeFormatterAndroid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/DateTimeFormatterAndroid.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/ExtentionsAndroid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidMain/kotlin/com/louis/kdatetime/ExtentionsAndroid.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/KDateTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/KDateTime.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/Models.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonMain/kotlin/com/louis/kdatetime/Models.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateKind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateKind.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateLocale.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateLocale.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateStyle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateStyle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateZone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/commonTest/kotlin/com/louis/kdatetime/formating/TestDateZone.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iosMain/kotlin/com/louis/kdatetime/DateTimeFormatterApple.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/iosMain/kotlin/com/louis/kdatetime/DateTimeFormatterApple.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jvmMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nativeMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/nativeMain/kotlin/com/louis/kdatetime/DateTimeFormatter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kdatetime.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/Kdatetime.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/androidApp/app/src/main/java/com/louis/androidapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sample/androidApp/app/src/main/java/com/louis/androidapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/sample/iosApp/iosApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/iosApp/iosApp/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/sample/iosApp/iosApp/ContentView.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +68,18 @@
           </variant>
         </variants>
       </executable>
-      <executable target="watchos_arm64" targetName="watchosArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
+      <executable target="tvos_simulator_arm64" targetName="tvosSimulatorArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestWatchosArm64" file="build/bin/watchosArm64/debugTest/test.kexe">
+          <variant name="Debug" gradleTask=":linkDebugTestTvosSimulatorArm64" file="build/bin/tvosSimulatorArm64/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
           </variant>
         </variants>
       </executable>
-      <executable target="tvos_arm64" targetName="tvosArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
+      <executable target="watchos_arm64" targetName="watchosArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestTvosArm64" file="build/bin/tvosArm64/debugTest/test.kexe">
+          <variant name="Debug" gradleTask=":linkDebugTestWatchosArm64" file="build/bin/watchosArm64/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
@@ -79,27 +95,9 @@
           </variant>
         </variants>
       </executable>
-      <executable target="watchos_x64" targetName="watchosX64" execName="test" projectPrefix="Kdatetime:" isTest="true">
+      <executable target="tvos_arm64" targetName="tvosArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestWatchosX64" file="build/bin/watchosX64/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="macos_x64" targetName="native" execName="test" projectPrefix="Kdatetime:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestNative" file="build/bin/native/debugTest/test.kexe">
-            <params workingDirectory="" programParameters="">
-              <environmentVariables />
-            </params>
-          </variant>
-        </variants>
-      </executable>
-      <executable target="tvos_x64" targetName="tvosX64" execName="test" projectPrefix="Kdatetime:" isTest="true">
-        <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestTvosX64" file="build/bin/tvosX64/debugTest/test.kexe">
+          <variant name="Debug" gradleTask=":linkDebugTestTvosArm64" file="build/bin/tvosArm64/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
@@ -115,9 +113,27 @@
           </variant>
         </variants>
       </executable>
-      <executable target="tvos_simulator_arm64" targetName="tvosSimulatorArm64" execName="test" projectPrefix="Kdatetime:" isTest="true">
+      <executable target="macos_x64" targetName="native" execName="test" projectPrefix="Kdatetime:" isTest="true">
         <variants>
-          <variant name="Debug" gradleTask=":linkDebugTestTvosSimulatorArm64" file="build/bin/tvosSimulatorArm64/debugTest/test.kexe">
+          <variant name="Debug" gradleTask=":linkDebugTestNative" file="build/bin/native/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="watchos_x64" targetName="watchosX64" execName="test" projectPrefix="Kdatetime:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestWatchosX64" file="build/bin/watchosX64/debugTest/test.kexe">
+            <params workingDirectory="" programParameters="">
+              <environmentVariables />
+            </params>
+          </variant>
+        </variants>
+      </executable>
+      <executable target="tvos_x64" targetName="tvosX64" execName="test" projectPrefix="Kdatetime:" isTest="true">
+        <variants>
+          <variant name="Debug" gradleTask=":linkDebugTestTvosX64" file="build/bin/tvosX64/debugTest/test.kexe">
             <params workingDirectory="" programParameters="">
               <environmentVariables />
             </params>
@@ -144,7 +160,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="shared-indexes" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -177,31 +193,8 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
       <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_PROFILING_ENABLED" value="false" />
@@ -248,7 +241,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -256,5 +248,9 @@
     </ignored-roots>
     <MESSAGE value="Add ios sample" />
     <option name="LAST_COMMIT_MESSAGE" value="Add ios sample" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
